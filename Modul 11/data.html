@@ -1,0 +1,21 @@
+<html>
+    <head><title>Data Mahasiswa</title>
+    <link rel="stylesheet" href="data.css">
+    </head>
+    <body>
+        <xml ID='dsoData' src='data.xml' />
+        <h2>Data Mahasiswa</h2>
+        <table datasrc='#dsoData' border='1' cellpading='5'>
+            <thead>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Kota</th>
+            </thead>
+            <tr align="center">
+                <td><span datafld='NIM'></span></td>
+                <td><span datafld='Nama'></span></td>
+                <td><span datafld='Kota'></span></td>
+            </tr>
+        </table>
+    </body>
+</html>

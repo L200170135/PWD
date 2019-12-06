@@ -1,0 +1,23 @@
+body {
+    background-image: url('bg1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+h2{
+    color: orange;
+    font-family:calibri;
+    text-align:center
+}
+table{
+    background: transparent;
+    color: yellow;
+}
+.td {
+    font-weight:bold;
+}
+.dashed{
+    border-style:double;
+    border-color:pink;
+}
